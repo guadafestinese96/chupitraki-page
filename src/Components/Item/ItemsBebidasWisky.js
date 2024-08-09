@@ -3,7 +3,7 @@ export default [
         id: 1,
         marca: "johnnie walker",
         modelo: "gold label",
-        img: "/src/assets/goldLabel.png",
+        img: "../../src/assets/goldLabel.png",
     },{
         id: 2,
         marca: "johnnie walker",
