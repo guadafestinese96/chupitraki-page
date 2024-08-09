@@ -1,0 +1,99 @@
+
+.headerContainer{
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 110px;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.9;
+}
+
+.logoHeader{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid var(--colorPrimario);
+    animation-name: girar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+
+
+@keyframes girar{
+    from{
+        transform: rotate(0deg)
+    }to{
+        transform: rotate(360deg)
+    }
+} 
+
+.logoHeader:hover{
+    cursor: pointer;
+}
+
+
+.listHeader li{
+    color: var(--colorPrimario);
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 20px;
+}
+.listHeader li:hover{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+
+.liListHeader{
+    padding: 8px;
+}
+.liListHeader:hover{
+    background-color: var(--colorPrimario);
+    color: black;
+    cursor: pointer;
+    transition: 300ms;
+    border-radius: 5px;
+   
+}
+
+.imgHeaderContainer{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    background-color: var(--colorPrimario);
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 20%;
+}
+
+.cartEmailHeader{
+    width: 30px;
+    padding: 4px; 
+}
+
+.cartEmailHeader:hover{
+    cursor: pointer;
+}
+
+.listHeaderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activeLink li{
+    background-color: var(--colorPrimario);
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+}
+ 

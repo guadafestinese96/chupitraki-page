@@ -1,0 +1,30 @@
+.titleIndex {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titleIndex2 {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 460px;
+}
+
+.bebidasInicio{
+    width: 200px;
+    filter: drop-shadow(2px 2px 5px #000);
+    /* animation: rotar 5s linear infinite; */
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-180deg);
+    }
+}

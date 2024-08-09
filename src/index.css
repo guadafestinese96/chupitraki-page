@@ -1,0 +1,12 @@
+:root {
+  --colorPrimario: #BCF3E9;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh; 
+  overflow-x: hidden;
+  background-color: var(--colorPrimario);
+  text-decoration: none;
+  list-style: none;
+}

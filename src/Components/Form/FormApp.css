@@ -1,0 +1,116 @@
+.formBox {
+    background-color: black;
+    color: var(--colorPrimario);
+    justify-content: space-between;
+    width: 500px;
+    display: flex;
+    margin: 20px;
+    height: 400px;
+    border-radius: 8%;
+}
+
+.formMsj {
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.labelsForm {
+    margin: 5px;
+}
+
+.fields {
+    width: 300px;
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.divButton{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonForm {
+    background-color: var(--colorPrimario);
+    width: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    filter: drop-shadow(1px 1px 3px var(--colorPrimario))
+}
+
+.buttonForm:hover{
+    cursor: pointer;
+    background-color: black;
+    color: var(--colorPrimario);
+    border: 1px solid var(--colorPrimario
+    );
+}
+
+.textareaField{
+    height: 80px;
+}
+
+.swal2-confirm{
+    background-color: black;
+    color: var(--colorPrimario);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.swal2-title{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.swal2-popup{
+    background-color: var(--colorPrimario);
+    width: 400px;
+    filter:drop-shadow(0px 10px 10px #000);
+}
+
+.formError{
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+   justify-content: end;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 460px;
+    
+}
+
+.userImg{
+    width: 40px;
+    padding: 5px;
+    transform: rotateY(360);
+}
+
+.imgUserContainer{
+    width: 60px;
+    height: 60px;
+    background-color: var(--colorPrimario);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.formData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
