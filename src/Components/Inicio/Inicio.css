@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    min-height: 100vh;
     text-align: center;
 } 
 .titleIndex {
@@ -31,9 +31,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 500px){
-    .inicio{
-        min-height: 400px;
-    }
+    
     .titleIndex{
         font-size: 15px;
     }

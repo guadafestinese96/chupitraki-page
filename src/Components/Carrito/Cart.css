@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 100vh;
 }
 
 .titleCart1{

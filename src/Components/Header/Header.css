@@ -90,6 +90,10 @@
     align-items: center;
 }
 
+.containerIcons{
+    display: flex;
+}
+
 .activeLink li{
     background-color: var(--colorPrimario);
     padding: 8px;
