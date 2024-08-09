@@ -1,6 +1,8 @@
 import './App.css'
 import Cart from './Components/Carrito/Cart'
+import Footer from './Components/Footer/Footer'
 import FormApp from './Components/Form/FormApp'
+import Header from './Components/Header/Header'
 import Inicio from './Components/Inicio/Inicio'
 import ItemsChampagne from './Components/Item/ItemsChampagne'
 import ItemsVodka from './Components/Item/ItemsVodka'
@@ -14,7 +16,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-   <Layout>
+    <Layout>
     <Routes>
       <Route path='/' element={<Inicio/>} />
       <Route path='/form' element={<FormApp />}/>
@@ -22,14 +24,8 @@ export default function App() {
       <Route path="/champagne" element={<ItemsChampagne/>} />
       <Route path="/wisky" element={<ItemsWisky/>} />
       <Route path="/carrito" element={<Cart/>}/>
-      
-    {/*<Counter/>
-     <Temporizador/>
-    <List/>
-     */}
-   
-   </Routes>
-   </Layout>
+   </Routes> 
+    </Layout>
    </BrowserRouter>
   )
 }

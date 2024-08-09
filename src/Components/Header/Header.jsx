@@ -21,7 +21,7 @@ export default function Header() {
                         <li>vodka</li></NavLink>
 
                 </ul>
-
+                <div className='containerIcons'>
                 <div className='imgHeaderContainer'>
                     <NavLink to='/form'>
                         <img src={emailImg} alt="logoEmail" className="cartEmailHeader" />
@@ -31,6 +31,7 @@ export default function Header() {
                     <div className='imgHeaderContainer'>
                         <NavLink to='/carrito'>
                         <img src={cartImg} alt="cartIcon" className="cartEmailHeader" /></NavLink>
+                    </div>
                     </div>
                 
                

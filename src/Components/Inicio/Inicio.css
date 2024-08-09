@@ -1,17 +1,18 @@
-.titleIndex {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.titleIndex2 {
-    font-family: 'Cedarville Cursive', cursive;
-}
 
 .inicio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 460px;
+    margin-top: 50px;
+    text-align: center;
+} 
+.titleIndex {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titleIndex2 {
+    font-family: 'Cedarville Cursive', cursive;
 }
 
 .bebidasInicio{
@@ -26,5 +27,23 @@
     }
     to{
         transform: rotateY(-180deg);
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px){
+    .inicio{
+        min-height: 400px;
+    }
+    .titleIndex{
+        font-size: 15px;
+    }
+    .titleIndex2{
+        font-size: 10px;
+        width: 200px;
+        margin-top:10px;
+    }
+    .bebidasInicio{
+        width: 50px;
+        margin-top: 20px;
     }
 }

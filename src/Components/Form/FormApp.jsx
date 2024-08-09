@@ -55,8 +55,11 @@ export default function FormApp() {
                     ({ isSubmitting, values }) => (
 
                         <Form className="formBox">
-                            <div className="formData">
 
+                            <div className="formData">
+                                <div className="imgUserContainer">
+                                    <img src={userImg} alt="userImg" className="userImg" />
+                                </div>
                                 <div className="formMsj">
                                     <div>
                                         <label className="labelsForm" htmlFor="name">Nombre</label>
@@ -84,9 +87,7 @@ export default function FormApp() {
                                     <button type="submit" disabled={isSubmitting} className="buttonForm">{isSubmitting ? "Enviando..." : "Enviar Mensaje"}</button>
                                 </div>
                             </div>
-                            <div className="imgUserContainer">
-                                <img src={userImg} alt="userImg" className="userImg" />
-                            </div>
+
 
                         </Form>
                     )
