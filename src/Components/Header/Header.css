@@ -46,24 +46,12 @@
     font-family: 'Cedarville Cursive', cursive;
     font-size: 20px;
 }
-.listHeader li:hover{
-    list-style: none;
-    text-decoration: none;
-    color:black;
-    padding: 5px;
-}
+
 
 .liListHeader{
     margin: 8px;
 }
-.liListHeader:hover{
-    background-color: var(--colorPrimario);
-    color: black;
-    cursor: pointer;
-    transition: 300ms;
-    border-radius: 5px; 
-    
-}
+
 
 .imgHeaderContainer{
     height: 35px;
