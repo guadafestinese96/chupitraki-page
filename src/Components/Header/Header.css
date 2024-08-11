@@ -50,18 +50,19 @@
     list-style: none;
     text-decoration: none;
     color:black;
+    padding: 5px;
 }
 
 .liListHeader{
-    padding: 8px;
+    margin: 8px;
 }
 .liListHeader:hover{
     background-color: var(--colorPrimario);
     color: black;
     cursor: pointer;
     transition: 300ms;
-    border-radius: 5px;
-   
+    border-radius: 5px; 
+    
 }
 
 .imgHeaderContainer{
@@ -74,10 +75,14 @@
     margin: 5px;
     border-radius: 20%;
 }
+.imgHeaderContainer:hover{
+    filter: drop-shadow(5px 5px 5px var(--colorPrimario));
+
+}
 
 .cartEmailHeader{
     width: 30px;
-    padding: 4px; 
+    padding: 5px; 
 }
 
 .cartEmailHeader:hover{
@@ -96,7 +101,7 @@
 
 .activeLink li{
     background-color: var(--colorPrimario);
-    padding: 8px;
+    padding: 4px;
     border-radius: 5px;
     color: black;
 }
@@ -151,61 +156,3 @@
 }
 
 
-/*
-.listHeader li{
-    color: var(--colorPrimario);
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Cedarville Cursive', cursive;
-    font-size: 20px;
-}
-.listHeader li:hover{
-    list-style: none;
-    text-decoration: none;
-    color:black;
-}
-
-.liListHeader{
-    padding: 8px;
-}
-.liListHeader:hover{
-    background-color: var(--colorPrimario);
-    color: black;
-    cursor: pointer;
-    transition: 300ms;
-    border-radius: 5px;
-   
-}
-
-.imgHeaderContainer{
-    height: 35px;
-    width: 35px;
-    display: flex;
-    background-color: var(--colorPrimario);
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-    border-radius: 20%;
-}
-
-.cartEmailHeader{
-    width: 30px;
-    padding: 4px; 
-}
-
-.cartEmailHeader:hover{
-    cursor: pointer;
-}
-
-.listHeaderContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.activeLink li{
-    background-color: var(--colorPrimario);
-    padding: 8px;
-    border-radius: 5px;
-    color: black;
-}*/

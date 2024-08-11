@@ -23,8 +23,9 @@ export default function Header() {
                 </ul>
                 <div className='containerIcons'>
                 <div className='imgHeaderContainer'>
+                    
                     <NavLink to='/form'>
-                        <img src={emailImg} alt="logoEmail" className="cartEmailHeader" />
+                        <img src={emailImg} alt="logoEmail" className='cartEmailHeader'/>
                     </NavLink>
                 </div>
                 
