@@ -4,30 +4,30 @@ export default [
         id: 1,
         marca: "belvedere",
         modelo: "luminous",
-        img: "../../src/assets/belvedereLuminous.jpg"
+        img: "belvedereLuminous.jpg"
     },
     {
         id: 2,
         marca: "belvedere",
         modelo: "classic",
-        img: "../../src/assets/belvedere.png"
+        img: "belvedere.png"
     },
     {
         id: 3,
         marca: "belvedere",
         modelo: "magnum",
-        img: "../../src/assets/belvedereMagnum.png"
+        img: "belvedereMagnum.png"
     },
     {
         id: 4,
         marca: "grey goose",
         modelo: "classic",
-        img: "../../src/assets/greyGoose.png"
+        img: "greyGoose.png"
     },
     {
         id: 5,
         marca: "grey goose",
         modelo: "strawberry & lemongrass",
-        img: "../../src/assets/greyGooseStrawberry.png"
+        img: "greyGooseStrawberry.png"
     }
 ]
