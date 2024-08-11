@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     text-align: center;
 } 
 .titleIndex {
@@ -33,15 +32,15 @@
 @media screen and (min-width: 320px) and (max-width: 500px){
     
     .titleIndex{
-        font-size: 15px;
+        font-size: 20px;
     }
     .titleIndex2{
-        font-size: 10px;
+        font-size: 15px;
         width: 200px;
         margin-top:10px;
     }
     .bebidasInicio{
-        width: 50px;
+        width: 100px;
         margin-top: 20px;
     }
 }
