@@ -7,7 +7,7 @@ html{
 .app{
   --colorPrimario: #BCF3E9;
   overflow-x: hidden;
-  background-image: url("/chupitraki2/public/ibiza.jpg");
+  background-image: url("../public/ibiza.jpg");
   background-size: cover;
   text-decoration: none;
   list-style: none;
