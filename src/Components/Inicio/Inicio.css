@@ -8,9 +8,10 @@
 } 
 .titleIndex {
     margin-top:30px;
-    color: var(--colorPrimario);
-    text-shadow: 2px 4px 1px black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-shadow: 2px 4px 1px var(--colorPrimario);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .titleIndex2 {
@@ -35,7 +36,7 @@
 @media screen and (min-width: 320px) and (max-width: 500px){
     
     .titleIndex{
-        font-size: 20px;
+        font-size: 30px;
     }
     .titleIndex2{
         font-size: 15px;

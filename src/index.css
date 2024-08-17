@@ -5,13 +5,12 @@ html{
 }
 
 .app{
-  --colorPrimario: #BCF3E9;
+  --colorPrimario: #bbb;
   overflow-x: hidden;
-  background-image: url("../public/ibiza.jpg");
+  background-image: url("../public/moetFondo.jpg");
   background-size: cover;
   text-decoration: none;
   list-style: none;
-  
 }
 
 

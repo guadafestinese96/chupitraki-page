@@ -154,24 +154,33 @@
 .dropdown-toggle {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--colorPrimario);
-    color: black;
+    color: black; 
+    background-color: unset;
+    border: unset;
 }
 
 
 
 .dropdown-item {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    background-color: var(--colorPrimario);
+    border-radius: 5px;
 }
-
+.dropdown:hover{
+    background-color: unset;
+}
+.btn:hover{
+    background-color: unset;
+}
 .dropdown-item:hover {
     background-color: black;
     border-radius: 5px;
     color: var(--colorPrimario);
-}
+} 
 
 .copa {
     width: 40px;
+    filter: drop-shadow(1px 1px 1px white);
 }
 
 
@@ -192,4 +201,8 @@
     font-size: 13px;
     
   
+}
+
+.dropdown{
+    background-color: unset;
 }
