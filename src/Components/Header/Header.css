@@ -99,8 +99,8 @@
         height: 160px;
     }
     .logoHeader{
-        height: 80px;
-        width: 80px;
+        height: 120px;
+        width: 120px;
     }
 
     .listHeaderContainer{
@@ -156,7 +156,15 @@
     font-family: 'Cedarville Cursive', cursive;
 
 }
+.dropdown-item:hover{
+    background-color: white;
+    color: var(--colorPrimario);
+}
 
 .copa{
     width: 40px;
+}
+
+.active{
+    background-color: white;
 }
