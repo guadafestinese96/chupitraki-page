@@ -3,10 +3,11 @@ html{
   position: relative;
 }
 
-:root{
+.app{
   --colorPrimario: #BCF3E9;
   overflow-x: hidden;
-  background-color: var(--colorPrimario);
+  background-image: url("ibiza.jpg");
+  background-size: cover;
   text-decoration: none;
   list-style: none;
   
@@ -16,4 +17,5 @@ html{
 .body{
   margin: 0;
   margin-bottom: 110px;
+
 }

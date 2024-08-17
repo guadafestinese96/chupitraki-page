@@ -8,7 +8,7 @@ import Dropdown from './Dropdown'
 export default function Header() {
     return (
         <div className='headerContainer'>
-            <NavLink to='/'>
+            <NavLink to='/' className={({ isActive }) => isActive ? "activeLogoHeader" : "logoHeaderContainer"}>
                 <img src={logoChupitraki} alt="logoChupitraki" className='logoHeader' />
             </NavLink>
             <Dropdown/>

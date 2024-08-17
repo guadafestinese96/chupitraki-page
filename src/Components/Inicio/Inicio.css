@@ -8,6 +8,8 @@
 } 
 .titleIndex {
     margin-top:30px;
+    color: var(--colorPrimario);
+    text-shadow: 2px 4px 1px black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -17,7 +19,7 @@
 
 .bebidasInicio{
     width: 200px;
-    filter: drop-shadow(2px 2px 5px #000);
+    filter: drop-shadow(2px 2px 5px var(--colorPrimario));
     /* animation: rotar 5s linear infinite; */
 }
 
