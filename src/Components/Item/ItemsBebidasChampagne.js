@@ -48,6 +48,6 @@ export default [
         id: 10,
         marca: "chandon",
         modelo: "extra brut",
-        img: "chandonExtraBrut.png"
+        img: "chandonExtrabrut.png"
     }
 ]
