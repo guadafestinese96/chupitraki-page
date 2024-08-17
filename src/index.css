@@ -1,3 +1,4 @@
+
 html{
   min-height: 100%;
   position: relative;
@@ -6,7 +7,7 @@ html{
 .app{
   --colorPrimario: #BCF3E9;
   overflow-x: hidden;
-  background-image: url("ibiza.jpg");
+  background-image: url("/chupitraki2/public/ibiza.jpg");
   background-size: cover;
   text-decoration: none;
   list-style: none;
