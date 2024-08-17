@@ -144,3 +144,19 @@
 }
 
 
+.btn, .btn-secondary, .dropdown-toggle{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: var(--colorPrimario);
+  color: black;
+}
+
+
+
+.dropdown-item{
+    font-family: 'Cedarville Cursive', cursive;
+
+}
+
+.copa{
+    width: 40px;
+}

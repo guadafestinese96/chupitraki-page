@@ -3,6 +3,7 @@ import cartImg from '../../assets/cart2.png'
 import emailImg from '../../assets/logoEmail.png'
 import './Header.css'
 import { NavLink } from 'react-router-dom'
+import Dropdown from './Dropdown'
 
 export default function Header() {
     return (
@@ -10,7 +11,14 @@ export default function Header() {
             <NavLink to='/'>
                 <img src={logoChupitraki} alt="logoChupitraki" className='logoHeader' />
             </NavLink>
-            <div className='listHeaderContainer'>
+            <Dropdown/>
+
+            
+        </div>
+    )
+}
+/*
+<div className='listHeaderContainer'>
                 <ul className='listHeader'>
 
                     <NavLink className={({ isActive }) => isActive ? "activeLink" : "liListHeader"} to="/wisky">
@@ -36,7 +44,4 @@ export default function Header() {
                     </div>
                 
                
-            </div>
-        </div>
-    )
-}
+            </div>*/
