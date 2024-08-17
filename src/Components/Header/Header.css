@@ -160,7 +160,7 @@
 
 
 .dropdown-item {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -177,7 +177,19 @@
 
 
 .show {
-    text-align: center;
+    text-align: right;
     font-weight: bolder;
-    background-color: rgb(188, 243, 233, 0.5);
+    background-color: unset;
+    border: unset;
+
+}
+
+.liDropdown{
+    background-color: rgb(188, 243, 233, 0.9);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1px;
+    font-size: 13px;
+    
+  
 }
