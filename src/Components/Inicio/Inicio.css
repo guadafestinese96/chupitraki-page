@@ -7,16 +7,18 @@
     text-align: center;
 } 
 .titleIndex {
-    margin-top:30px;
+    margin-top: 50px;
     color: black;
-    text-shadow: 2px 4px 1px var(--colorPrimario);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    text-shadow: 1px 1px 1px var(--colorPrimario);
+    filter: drop-shadow(1px 1px 1px black);
+    font-family: "Qwitcher Grypen", cursive;
+    text-transform: lowercase;
+    font-size: 100px;
+    font-weight: bolder;
+
 }
 
-.titleIndex2 {
-    font-family: 'Cedarville Cursive', cursive;
-}
+
 
 .bebidasInicio{
     width: 200px;
@@ -36,7 +38,7 @@
 @media screen and (min-width: 320px) and (max-width: 500px){
     
     .titleIndex{
-        font-size: 30px;
+        font-size: 40px;
     }
     .titleIndex2{
         font-size: 15px;

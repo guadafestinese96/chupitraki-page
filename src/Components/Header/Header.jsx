@@ -1,4 +1,4 @@
-import logoChupitraki from '../../assets/logoChupitrakiOk.png'
+import logoChupitraki from '../../assets/logoChupitrakiGrey.png'
 import cartImg from '../../assets/cart2.png'
 import emailImg from '../../assets/logoEmail.png'
 import './Header.css'
