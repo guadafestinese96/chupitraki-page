@@ -106,9 +106,12 @@
     color: black; 
     background-color: unset;
     border: unset;
-    filter: drop-shadow(1px 1px 1px var(--colorPrimario));
+    
 }
 
+.dropdown-toggle{
+    filter: drop-shadow(1px 1px 1px var(--colorPrimario));
+}
 
 
 .dropdown-item {
