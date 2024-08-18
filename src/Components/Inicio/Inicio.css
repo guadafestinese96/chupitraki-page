@@ -6,11 +6,12 @@
     align-items: center;
     text-align: center;
 } 
+
 .titleIndex {
     margin-top: 50px;
     color: black;
     text-shadow: 1px 1px 1px var(--colorPrimario);
-    filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 3px 1px rgb(255, 194, 25));
     font-family: "Qwitcher Grypen", cursive;
     text-transform: lowercase;
     font-size: 100px;

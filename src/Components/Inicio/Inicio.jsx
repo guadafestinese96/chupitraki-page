@@ -5,7 +5,8 @@ export default function Inicio() {
     
     return (
         <div className="inicio">
-            <h1 className="titleIndex">DISTRIBUIDORA CHUPITRAKI</h1>
+            <h1 className='titleDistribuidora'></h1>
+            <h2 className="titleIndex">CHUPITRAKI</h2>
             
 
         </div>
