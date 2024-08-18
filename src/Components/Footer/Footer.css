@@ -7,7 +7,7 @@
     height: 70px;
     padding: 25px;
     bottom: 0;
-    /* position: absolute; */
+    position: fixed;
     
 }
 
