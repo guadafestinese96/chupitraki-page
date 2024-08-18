@@ -102,7 +102,6 @@
 .btn-secondary,
 .dropdown-toggle {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: var(--colorPrimario);
     color: black; 
     background-color: unset;
     border: unset;
@@ -115,18 +114,20 @@
 .dropdown-item {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: var(--colorPrimario);
+    width: 90px;
     border-radius: 5px;
+    text-align: center;
 }
+.dropdown-item:hover {
+    background-color: var(--colorSecundario);
+} 
 .dropdown:hover{
     background-color: unset;
 }
 .btn:hover{
     background-color: unset;
 }
-.dropdown-item:hover {
-    background-color: black;
-    color: var(--colorPrimario);
-} 
+
 
 .copa {
     width: 60px;
@@ -148,18 +149,15 @@
 }
 
 .liDropdown{
-    background-color: rgb(188, 243, 233, 0.9);
+    
     border: 1px solid black;
     border-radius: 5px;
     margin: 1px;
     font-size: 13px;
-    
   
 }
 
-.dropdown{
-    background-color: unset;
-}
+
 
 @media screen and (min-width: 320px) and (max-width: 500px) {
     .headerContainer {
