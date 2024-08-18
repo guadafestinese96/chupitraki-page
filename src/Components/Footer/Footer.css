@@ -1,6 +1,6 @@
 .footerContainer{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
@@ -17,6 +17,10 @@
     margin: 10px;
 }
 
+.logosFooterEmail{
+    height: 40px;
+}
+
 .logosFooter:hover{
     cursor: pointer;
     width: 45px;
@@ -28,9 +32,14 @@
     color: var(--colorPrimario);
 }
 
+
 @media screen and (min-width: 320px) and (max-width: 500px){
     .logosFooter{
         width: 30px;
+        height: 30px;
+    }
+
+    .logosFooterEmail{
         height: 30px;
     }
 }

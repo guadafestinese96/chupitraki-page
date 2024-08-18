@@ -57,10 +57,9 @@ export default function FormApp() {
                         <Form className="formBox">
 
                             <div className="formData">
-                                <div className="imgUserContainer">
-                                    <img src={userImg} alt="userImg" className="userImg" />
-                                </div>
+
                                 <div className="formMsj">
+                                    <div className="formUp">
                                     <div>
                                         <label className="labelsForm" htmlFor="name">Nombre</label>
                                         <Field type="text" name="name" className="fields"></Field>
@@ -71,21 +70,25 @@ export default function FormApp() {
                                         <Field type="number" name="celular" className="fields"></Field>
                                         <ErrorMessage className="labelsForm formError" name="celular" component="p" />
                                     </div>
+                                    </div>
+
                                     <div>
                                         <label className="labelsForm" htmlFor="email">Email</label>
-                                        <Field type="email" name="email" className="fields"></Field>
+                                        <Field type="email" name="email" className="fields emailField"></Field>
                                         <ErrorMessage className="labelsForm formError" name="email" component="p" />
                                     </div>
+                                    
                                     <div>
                                         <label className="labelsForm" htmlFor="message">Mensaje</label>
                                         <Field className="fields textareaField" component="textarea" value={values.message} name="message"></Field>
                                         <ErrorMessage className="labelsForm formError" name="message" component="p" />
                                     </div>
+                                    <div className="divButton">
+                                        <button type="submit" disabled={isSubmitting} className="buttonForm">{isSubmitting ? "Enviando..." : "Enviar Mensaje"}</button>
+                                    </div>
                                 </div>
 
-                                <div className="divButton">
-                                    <button type="submit" disabled={isSubmitting} className="buttonForm">{isSubmitting ? "Enviando..." : "Enviar Mensaje"}</button>
-                                </div>
+
                             </div>
 
 
