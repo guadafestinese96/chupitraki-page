@@ -11,6 +11,7 @@ export default function Example() {
                 <li className="liDropdown"><NavLink to='/wisky'><a className="dropdown-item" href="#">wisky</a></NavLink></li>
                 <li className="liDropdown"><NavLink to='/champagne'><a className="dropdown-item" href="#">champagne</a></NavLink></li>
                 <li className="liDropdown"><NavLink to='/vodka'><a className="dropdown-item" href="#">vodka</a></NavLink></li>
+                <li className="liDropdown"><NavLink to='/tequila'><a className="dropdown-item" href="#">tequila</a></NavLink></li>
 
             </ul>
         </div>
