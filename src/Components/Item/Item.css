@@ -10,7 +10,7 @@
     width: 230px;
     height: 400px;
     margin: 10px;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@
 .itemMarca, .itemModelo{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: capitalize;
-    color: #BCF3E9;
+    color: var(--colorPrimario)
 }
 
 .itemMarca{

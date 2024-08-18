@@ -157,6 +157,7 @@
     color: black; 
     background-color: unset;
     border: unset;
+    filter: drop-shadow(1px 1px 1px white);
 }
 
 
@@ -174,7 +175,6 @@
 }
 .dropdown-item:hover {
     background-color: black;
-    border-radius: 5px;
     color: var(--colorPrimario);
 } 
 
