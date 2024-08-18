@@ -16,7 +16,7 @@
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    border: 2px solid var(--colorPrimario);
+    border: 2px solid rgb(255, 194, 25, 0.5);
     /* animation-name: girar; */
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -109,9 +109,7 @@
     
 }
 
-.dropdown-toggle{
-    filter: drop-shadow(1px 1px 1px var(--colorPrimario));
-}
+
 
 
 .dropdown-item {
@@ -132,10 +130,14 @@
 
 .copa {
     width: 40px;
-    filter: drop-shadow(1px 1px 1px var(--colorPrimario));
+    filter: drop-shadow(1px 2px 1px var(--colorPrimario));
 }
 
-
+.btn-secondary{
+    text-shadow: 1px 5px 1px var(--colorPrimario);
+    filter: drop-shadow(1px 2px 1px rgb(255, 194, 25));
+ 
+}
 
 .show {
     text-align: right;

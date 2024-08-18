@@ -6,6 +6,7 @@ html{
 
 .app{
   --colorPrimario: #d9d9d9;
+  --colorSecundario: rgb(255, 194, 25);
   overflow-x: hidden;
   background-image: url("../public/moetFondo.jpg");
   background-size: cover;

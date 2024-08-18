@@ -15,9 +15,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 2px;
     border-radius: 10px;
     flex-direction: column;
+    border: 1px solid var(--colorSecundario);
     
 }
 
@@ -70,7 +71,7 @@
 }
 
 .itemMarca{
-    font-size: 15px;
+    font-size: 13px;
 }
 .itemModelo{
     font-size: 10px;
