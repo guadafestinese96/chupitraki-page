@@ -15,7 +15,7 @@
 .text{
     font-size: 15px;
     text-transform: uppercase;
-    color: white;
+    color: var(--colorSecundario);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }

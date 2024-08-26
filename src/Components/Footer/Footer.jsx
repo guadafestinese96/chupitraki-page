@@ -17,7 +17,7 @@ export default function Footer() {
                 </NavLink>
             </div>
             <div>
-                <h2 className='text'>Contactanos mediante email, whatsapp o instagram</h2>
+                <h2 className='text'>Contactanos por email, whatsapp o instagram</h2>
             </div>
             
             <div className='iconsFooter'>
