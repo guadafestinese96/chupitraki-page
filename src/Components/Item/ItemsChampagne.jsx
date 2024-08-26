@@ -1,16 +1,13 @@
 import bebidasChampagne from './ItemsBebidasChampagne';
 import Item from './Item';
-import { useContext, useState } from 'react';
-import { SearchContext, SearchProvider } from '../Contexts/SearchContext';
-
+import useBebidas from '../../hooks/useBebidas';
 
 export default function ItemsChampagne(){
-    const [champagne, setChampagne] = useState(bebidasChampagne);
-    const {search} = useContext(SearchContext);
+    useBebidas(bebidasChampagne);
 
     return(
         <div className="itemListContainer">
-        {champagne.map((unChampagne)=>(
+        {bebidasChampagne.map((unChampagne)=>(
             <Item key={unChampagne.id} item={unChampagne}/>
         ))}
 

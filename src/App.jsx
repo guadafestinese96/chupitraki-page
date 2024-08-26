@@ -1,8 +1,6 @@
 import './App.css'
 import Cart from './Components/Carrito/Cart'
-import Footer from './Components/Footer/Footer'
 import FormApp from './Components/Form/FormApp'
-import Header from './Components/Header/Header'
 import Inicio from './Components/Inicio/Inicio'
 import ItemsChampagne from './Components/Item/ItemsChampagne'
 import ItemsTequila from './Components/Item/ItemsTequila'

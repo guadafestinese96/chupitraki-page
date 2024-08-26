@@ -1,15 +1,13 @@
 import Item from "./Item"
 import bebidasVodka from './itemsBebidasVodka';
-import { useState } from "react";
+import useBebidas from "../../hooks/useBebidas";
 
-export default function ItemsVodka(){
-
-    let [items, setItems] = useState(bebidasVodka);
-
-    return(
+export default function ItemsVodka() {
+    useBebidas(bebidasVodka);
+    return (
         <div className="itemListContainer vodkaContainer">
-            {items.map((item)=>(
-                <Item key={item.id} item={item}/>
+            {bebidasVodka.map((item) => (
+                <Item key={item.id} item={item} />
             ))}
         </div>
     )
