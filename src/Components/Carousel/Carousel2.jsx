@@ -5,7 +5,7 @@ import champagne from '../Item/ItemsBebidasChampagne';
 import tequila from '../Item/ItemsBebidasTequila';
 import vodka from '../Item/itemsBebidasVodka';
 
-const bebidas2= [...wisky, ...champagne, ...tequila, ...vodka];
+const bebidas2 = [...wisky, ...champagne, ...tequila, ...vodka];
 
 const CarouselImg = styled.img`
     height: 160px;
@@ -34,20 +34,24 @@ const ImgContainer = styled.div`
     justify-content: center;
     align-items:center;
 `
-
+const DetailsItemh4 = styled.h4`
+    font-size:10px;
+    text-transform:capitalize;
+`
 
 export default function Carousel2() {
-    
+
     return (
         <div className='overflow-hidden w-full'>
-        <CarouselContainer className='animate-scroll'>
-            {bebidas2.map(bebida => (
-                <ImgContainer>
-                    <CarouselImg src={bebida.img} />
-                    <p>{bebida.modelo}</p>
-                </ImgContainer>
-            ))}
-        </CarouselContainer>
+            <CarouselContainer className=' animate-scroll'>
+                {bebidas2.map((bebida, index) => (
+                    <ImgContainer key={index}>
+                        <CarouselImg src={bebida.img} />
+                        <DetailsItemh4>{bebida.marca}</DetailsItemh4>
+                        <DetailsItemh4>{bebida.modelo}</DetailsItemh4>
+                    </ImgContainer>
+                ))}
+            </CarouselContainer>
         </div>
     )
 }

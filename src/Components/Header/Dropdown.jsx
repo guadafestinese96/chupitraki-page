@@ -10,10 +10,10 @@ export default function Example() {
                 
             </button>
             <ul className="dropdown-menu">
-                <li className="liDropdown"><NavLink to='/wisky'><a className="dropdown-item" href="#">wisky</a></NavLink></li>
-                <li className="liDropdown"><NavLink to='/champagne'><a className="dropdown-item" href="#">champagne</a></NavLink></li>
-                <li className="liDropdown"><NavLink to='/vodka'><a className="dropdown-item" href="#">vodka</a></NavLink></li>
-                <li className="liDropdown"><NavLink to='/tequila'><a className="dropdown-item" href="#">tequila</a></NavLink></li>
+                <li className="liDropdown"><NavLink to='/wisky' className="dropdown-item">wisky</NavLink></li>
+                <li className="liDropdown"><NavLink to='/champagne' className="dropdown-item">champagne</NavLink></li>
+                <li className="liDropdown"><NavLink to='/vodka' className="dropdown-item">vodka</NavLink></li>
+                <li className="liDropdown"><NavLink to='/tequila' className="dropdown-item">tequila</NavLink></li>
 
             </ul>
         </div>
