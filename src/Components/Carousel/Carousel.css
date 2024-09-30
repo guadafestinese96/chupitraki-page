@@ -1,0 +1,10 @@
+.carouselContainer{
+    background-color: rgb(255, 194, 25, 0.7);
+    width: 260px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
