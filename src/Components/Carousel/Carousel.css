@@ -8,3 +8,17 @@
     align-items: center;
     padding: 10px;
 }
+
+
+@keyframes scroll{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform:translate(calc(-200px*22))
+    }
+}
+
+.animate-scroll{
+    animation:scroll 20s linear infinite;
+}
