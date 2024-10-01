@@ -6,7 +6,7 @@ import tequila from '../Item/ItemsBebidasTequila';
 import vodka from '../Item/itemsBebidasVodka';
 import CarouselItem from './CarouselItem';
 
-const bebidas2 = [...wisky, ...champagne, ...tequila, ...vodka];
+const bebidas2 = [...wisky, ...tequila, ...vodka, ...champagne];
 const bebidas3 = [...bebidas2, ...bebidas2];
 
 
