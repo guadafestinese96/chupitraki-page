@@ -27,7 +27,7 @@ export default [
     {
         id: 5,
         marca: "grey goose",
-        modelo: "strawberry & lemongrass",
+        modelo: "strawb.&lemongrass",
         img: "greyGooseStrawberry.png"
     }
 ]
