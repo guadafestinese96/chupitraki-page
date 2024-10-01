@@ -1,21 +1,10 @@
-.carouselContainer{
-    background-color: rgb(255, 194, 25, 0.7);
-    width: 260px;
-    height: 200px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-
 
 @keyframes scroll{
     0%{
-        transform: translate(0);
+        transform: translateX(0);
     }
     100%{
-        transform:translate(calc(-200px*22))
+        transform:translateX(calc(-200px*22 - 0.5rem * 44))
     }
 }
 
