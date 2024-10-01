@@ -13,7 +13,7 @@ const bebidas3 = [...bebidas2, ...bebidas2];
 const CarouselContainer = styled.div`
     background-color: rgb(255, 194, 25, 0.7);
     width: 100%;
-    height: 230px;
+    height: 220px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
