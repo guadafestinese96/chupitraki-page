@@ -121,13 +121,25 @@
 .dropdown-item:hover {
     background-color: var(--colorSecundario);
 } 
+
+.dropdown-item-active{
+    background-color: var(--colorSecundario);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 90px;
+    border-radius: 5px;
+    text-align: center;
+    height: 27.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .dropdown:hover{
     background-color: unset;
 }
 .btn:hover{
     background-color: unset;
 }
-
 
 .copa {
     width: 60px;
@@ -149,13 +161,13 @@
 }
 
 .liDropdown{
-    
     border: 1px solid black;
     border-radius: 5px;
     margin: 1px;
     font-size: 13px;
-  
 }
+
+
 
 .productsTitle{
     font-size: 12px;

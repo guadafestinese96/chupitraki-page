@@ -10,7 +10,7 @@ export default function Example() {
                 
             </button>
             <ul className="dropdown-menu">
-                <li className="liDropdown"><NavLink to='/wisky' className="dropdown-item">wisky</NavLink></li>
+                <li className="liDropdown"><NavLink to='/wisky' className={({isActive})=> isActive ? "dropdown-item-active" : "dropdown-item"}>wisky</NavLink></li>
                 <li className="liDropdown"><NavLink to='/champagne' className="dropdown-item">champagne</NavLink></li>
                 <li className="liDropdown"><NavLink to='/vodka' className="dropdown-item">vodka</NavLink></li>
                 <li className="liDropdown"><NavLink to='/tequila' className="dropdown-item">tequila</NavLink></li>
