@@ -8,7 +8,7 @@
 
 .itemContainer{
     width: 230px;
-    height: 400px;
+    height: 280px;
     margin: 10px;
     background-color: rgb(0, 0, 0, 0.8);
     display: flex;
@@ -23,14 +23,14 @@
 }
 
 .itemImgContainer{
-    width: 120px;
-    height: 350px;
+    width: 130px;
+    height: 280px;
     display: flex;
     justify-content: center;
 }
 
 .itemImg{
-    height: 300px;
+    height: 200px;
     border-radius: 10px;
     filter: drop-shadow(1px 5px 5px var(--colorPrimario));
 }
@@ -39,11 +39,12 @@
 .itemMarca, .itemModelo{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: capitalize;
-    color: var(--colorPrimario)
+    color: var(--colorPrimario);
+    font-size: 15px;
 }
 
-.itemMarca{
-    font-size: 20px;
+.itemModelo{
+    font-size: 12px;
 }
 
 .itemDetails{
@@ -63,17 +64,16 @@
     
 .itemContainer{
     width: 120px;
-    height: 200px;   
+    height: 180px;   
 }
 .itemImgContainer{
-    width: 50px;
+    width: 90px;
     height: 100px;
     margin-bottom: 10px;
 }
 
 .itemImg{
-    height: 130px;
-   
+    height: 120px;
 }
 
 .itemMarca{
