@@ -1,4 +1,5 @@
 import Carousel2 from '../Carousel/Carousel2'
+// import Product from '../MP/Product'
 import './Inicio.css'
 
 export default function Inicio() {
