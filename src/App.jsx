@@ -1,4 +1,5 @@
 import './App.css'
+import AllProducts from './Components/AllProducts/AllProducts'
 import Cart from './Components/Carrito/Cart'
 import FormApp from './Components/Form/FormApp'
 import Inicio from './Components/Inicio/Inicio'
@@ -24,6 +25,7 @@ export default function App() {
       <Route path="/wisky" element={<ItemsWisky/>} />
       <Route path="/tequila" element={<ItemsTequila/>} />
       <Route path="/carrito" element={<Cart/>}/>
+      <Route path="/allproducts" element={<AllProducts/>}/>
    </Routes> 
     </Layout>
    </BrowserRouter>
