@@ -1,12 +1,13 @@
 import { NavLink } from "react-router-dom";
 import copa from '../../assets/coctail.png'
+import "./Dropdown.css";
 
-export default function Example() {
+export default function Dropdown() {
     return (
         <div className="dropdown">
-            <h2 className="productsTitle">productos</h2>
             <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
                 <img src={copa} className="copa" alt="copa" />
+                productos
 
             </button>
             <ul className="dropdown-menu">
@@ -17,6 +18,8 @@ export default function Example() {
                 <li className="liDropdown"><NavLink to='/tequila' className={({ isActive }) => isActive ? "dropdown-item-active" : "dropdown-item"}>tequila</NavLink></li>
 
             </ul>
+            
+
         </div>
 
     )

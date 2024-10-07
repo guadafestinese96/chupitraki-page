@@ -1,14 +1,22 @@
-import Item from "./Item"
-import bebidasWisky from './ItemsBebidasWisky';
-import useBebidas from "../../hooks/useBebidas";
+import allBebidas from './AllBebidas';
+import Item from './Item';
+import useBebidas from '../../hooks/useBebidas';
 
-export default function ItemsVodka() {
-    useBebidas(bebidasWisky)
-    return (
+export default function ItemsWisky(){
+    useBebidas(allBebidas);
+    const bebidasFilter = allBebidas.map(bebida=> {
+        if(bebida.tipo === "wisky"){
+            return bebida;
+        }else{
+            return null;
+        }
+    });
+
+    return(
         <div className="itemListContainer">
-            {bebidasWisky.map((unWisky) => (
-                <Item key={unWisky.id} item={unWisky} />
-            ))}
-        </div>
+        {bebidasFilter.map((bebida)=>(
+            bebida!= null && <Item key={bebida.id} item={bebida}/>
+        ))}
+    </div>
     )
 }

@@ -1,18 +1,23 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import CartContext from "./CartContext";
 
-export default function CartProvider(){
+export default function CartProvider({children}){
     
-    const[cart, setCart] = useState(localStorage.getItem("cart")? JSON.parse(localStorage.getItem("cart")) : [])
+    const [cart, setCart] = useState(localStorage.getItem("cart") ? JSON.parse(localStorage.getItem("cart")) : [])
+
+    useEffect(() => {
+        localStorage.setItem("cart", JSON.stringify(cart));
+      }, [cart]);
+    
 
     const addToCart =(product)=>{
         const itemInCart = cart.find(item => item.id === product.id);
 
         if(!itemInCart){
-            alert("Agregado")
             setCart([...cart, {...product, quantity: 1}])
         }else{
-            product.quantity+1; 
-            console.log(product.quantity) 
+            product.quantity + 1;
+ 
         }
     }
 
@@ -28,5 +33,10 @@ export default function CartProvider(){
         setCart([]);
     }
 
-    return(cart, clearCart, addToCart, removeFromCart)
+    return(
+        <CartContext.Provider value={{cart, clearCart, addToCart, removeFromCart}}>
+            {children}
+        </CartContext.Provider>
+    ) 
+    
 }

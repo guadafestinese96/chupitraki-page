@@ -1,17 +1,31 @@
 import { useContext } from "react"
 import CartContext from "../Contexts/CartContext/CartContext"
+import styled from "styled-components";
+
+const CartImgItem = styled.img`
+width: 50px;
+`
+
+const CartContainer = styled.div`
+display:flex;
+background-color: var(--colorSecundario);
+`
 
 export default function Cart(){
-    const {cart} = useContext(CartContext);
-
+    const {cart, removeFromCart} = useContext(CartContext);
+    console.log(cart);
+    
     return(
-        <div className="cartContainer">
-            {cart.map(item=>{
+        <CartContainer>
+
+            {cart.map(item=>(
                 <div className="cartItemContainer">
-                    <img src={item.img} alt="img"/>
+                    <CartImgItem src={item.img} alt="img"/>
                     <p>{item.modelo}</p>
+                    <p>{item.quantity}</p>
+                    <button onClick={()=>removeFromCart(item)}>Eliminar</button>
                 </div>
-            })}
-        </div>
+            ))}
+        </CartContainer>
     )
 }

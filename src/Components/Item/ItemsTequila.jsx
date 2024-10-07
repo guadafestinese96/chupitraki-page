@@ -1,15 +1,22 @@
-import Item from "./Item"
-import bebidasTequila from "./ItemsBebidasTequila";
-import useBebidas from "../../hooks/useBebidas";
+import allBebidas from './AllBebidas';
+import Item from './Item';
+import useBebidas from '../../hooks/useBebidas';
 
 export default function ItemsTequila(){
-    useBebidas(bebidasTequila);
-    return(
-             <div className="itemListContainer">
-                 {bebidasTequila.map((unProducto)=>(
-                     <Item key={unProducto.id} item={unProducto}/>
-                 ))}
-             </div>
-)
-} 
+    useBebidas(allBebidas);
+    const bebidasFilter = allBebidas.map(bebida=> {
+        if(bebida.tipo === "tequila"){
+            return bebida;
+        }else{
+            return null;
+        }
+    });
 
+    return(
+        <div className="itemListContainer">
+        {bebidasFilter.map((bebida)=>(
+            bebida!= null && <Item key={bebida.id} item={bebida}/>
+        ))}
+    </div>
+    )
+}
