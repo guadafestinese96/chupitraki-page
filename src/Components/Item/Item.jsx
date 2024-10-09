@@ -24,7 +24,7 @@ const ButtonIsInCart = styled.button`
 
 export default function Item({ item }) {
     const {cart, addToCart} = useContext(CartContext);
-    const itemInCart = cart.find(product=> product === item)
+    const itemInCart = cart.find(product=> product.id === item.id)
 
     return (
         <div className="itemContainer">

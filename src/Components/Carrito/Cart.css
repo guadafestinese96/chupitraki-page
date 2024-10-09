@@ -1,0 +1,75 @@
+.cartContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+}
+
+.titleCart1{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 30px;
+}
+
+.contact img{
+    width: 80px;
+    margin: 5px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 15px 10px #000);
+}
+
+.contactContainer{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.imgCarritoCart{
+    width: 150px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px){
+    
+.titleCart1{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 15px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.contact img{
+    width: 40px;
+    margin: 5px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 15px 10px #000);
+}
+
+.contactContainer{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.imgCarritoCart{
+    width: 80px;
+    margin: 30px;
+}
+}

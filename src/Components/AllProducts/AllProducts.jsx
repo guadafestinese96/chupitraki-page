@@ -1,12 +1,8 @@
 import useBebidas from '../../hooks/useBebidas';
 import Item from '../Item/Item';
-import champagne from '../Item/ItemsBebidasChampagne';
-import tequila from '../Item/ItemsBebidasTequila';
-import wisky from '../Item/ItemsBebidasWisky';
-import vodka from '../Item/itemsBebidasVodka';
+import allBebidas from '../Item/AllBebidas';
 import styled from 'styled-components';
 
-const allBebidas = [...tequila, ...wisky, ...champagne, ...vodka];
 
 const ContainerBebidas = styled.div`
 display:flex;
