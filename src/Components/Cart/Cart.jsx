@@ -10,7 +10,8 @@ const CartContainer = styled.div`
 display:flex;
 text-transform: capitalize;
 flex-wrap: wrap;
-
+justify-content: center;
+align-items: center;
 `
 const CartItemContainer = styled.div`
 display: flex;

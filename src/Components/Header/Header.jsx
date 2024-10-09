@@ -19,10 +19,8 @@ export default function Header() {
             <NavLink to='/' className={({ isActive }) => isActive ? "activeLogoHeader" : "logoHeaderContainer"}>
                 <img src={logoChupitraki} alt="logoChupitraki" className='logoHeader' />
             </NavLink>
-            <DivContainer>
                 <Dropdown />
                 <HeaderCart/>
-            </DivContainer>
         </div>
     )
 }
