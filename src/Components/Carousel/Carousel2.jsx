@@ -1,14 +1,9 @@
 import './Carousel.css'
 import styled from 'styled-components';
-import wisky from '../Item/ItemsBebidasWisky';
-import champagne from '../Item/ItemsBebidasChampagne';
-import tequila from '../Item/ItemsBebidasTequila';
-import vodka from '../Item/itemsBebidasVodka';
+import allBebidas from '../Item/AllBebidas'
 import CarouselItem from './CarouselItem';
 
-const bebidas2 = [...wisky, ...tequila, ...vodka, ...champagne];
-const bebidas3 = [...bebidas2, ...bebidas2];
-
+const bebidas3 = [...allBebidas, ...allBebidas];
 
 const CarouselContainer = styled.div`
     background-color: rgb(255, 194, 25, 0.7);
