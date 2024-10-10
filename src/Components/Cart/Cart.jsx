@@ -16,7 +16,7 @@ export default function Cart(){
     const {cart} = useContext(CartContext);
 
     // const cartTotal = cart.reduce((acc, item)=>{
-    //     return item.quantity*item.precio
+    //     return acc + (item.quantity*item.precio)
     // },0)
 
     return(
@@ -26,7 +26,8 @@ export default function Cart(){
             <CartItem item={item} key={index}/> ))
         }
         </CartContainer>
-        <p className="bg-black text-white text-center w-[150px]">Total: $</p>
+        {cart.length>0 && <button className="bg-black text-white text-center w-[150px] rounded text-xs p-1">Finalizar Compra</button>
+        }
         </div>
     )
 }
