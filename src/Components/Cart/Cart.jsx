@@ -15,9 +15,6 @@ align-items: center;
 export default function Cart(){
     const {cart} = useContext(CartContext);
 
-    // const cartTotal = cart.reduce((acc, item)=>{
-    //     return acc + (item.quantity*item.precio)
-    // },0)
 
     return(
         <div className="flex flex-col justify-center items-center">

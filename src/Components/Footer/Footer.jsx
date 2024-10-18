@@ -17,7 +17,9 @@ export default function Footer() {
                 </NavLink>
             </div>
             <div>
-                <h2 className='text'>Contactanos por email, whatsapp o instagram</h2>
+                <h2 className='text'>+54 9 1150057994</h2>
+                <h2 className='text'>@distribuidora_chupitraki</h2>
+                <h2 className='text'>Molina Ciudad, Barracas, CABA</h2>
             </div>
             
             <div className='iconsFooter'>

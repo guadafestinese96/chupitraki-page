@@ -14,7 +14,6 @@
 }
 .text{
     font-size: 15px;
-    text-transform: uppercase;
     color: var(--colorSecundario);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
@@ -35,16 +34,24 @@
     width: 40px;
     height: 40px;
     margin: 10px;
+    background-color: var(--colorSecundario);
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .logosFooterEmail{
-    height: 40px;
+    height: 30px;
+    background-color: var(--colorSecundario);
+    padding: 5px;
+    border-radius: 5px;
+}
+.logosFooterEmail:hover{
+    background-color: var(--colorPrimario);
 }
 
 .logosFooter:hover{
     cursor: pointer;
-    width: 45px;
-    height: 45px;
+    background-color: var(--colorPrimario);
     transition: 500ms;
 }
 
